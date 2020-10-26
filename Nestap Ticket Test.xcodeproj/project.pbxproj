@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1852A0AC25417094008D1235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0AB25417094008D1235 /* AppDelegate.swift */; };
+		1852A0AE25417094008D1235 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0AD25417094008D1235 /* SceneDelegate.swift */; };
+		1852A0B025417094008D1235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0AF25417094008D1235 /* ViewController.swift */; };
+		1852A0B325417094008D1235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0B125417094008D1235 /* Main.storyboard */; };
+		1852A0B525417095008D1235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0B425417095008D1235 /* Assets.xcassets */; };
+		1852A0B825417095008D1235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0B625417095008D1235 /* LaunchScreen.storyboard */; };
+		1852A0C225417136008D1235 /* ListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0C025417136008D1235 /* ListViews.swift */; };
+		1852A0C325417136008D1235 /* ListViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0C125417136008D1235 /* ListViews.xib */; };
+		1852A0CF25417F75008D1235 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0CE25417F75008D1235 /* TicketModel.swift */; };
+		1852A0D2254181FA008D1235 /* TicketDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0D1254181FA008D1235 /* TicketDetails.swift */; };
+		1852A0D62542858F008D1235 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0D52542858E008D1235 /* Apis.swift */; };
+		1852A0DF25469E76008D1235 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0DD25469E76008D1235 /* ImageCollectionViewCell.swift */; };
+		1852A0E025469E76008D1235 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0DE25469E76008D1235 /* ImageCollectionViewCell.xib */; };
+		1852A0E52546AEE2008D1235 /* TicketCommentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0E32546AEE2008D1235 /* TicketCommentCellTableViewCell.swift */; };
+		1852A0E62546AEE2008D1235 /* TicketCommentCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0E42546AEE2008D1235 /* TicketCommentCellTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1852A0A825417094008D1235 /* Nestap Ticket Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nestap Ticket Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1852A0AB25417094008D1235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1852A0AD25417094008D1235 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1852A0AF25417094008D1235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1852A0B225417094008D1235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1852A0B425417095008D1235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1852A0B725417095008D1235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1852A0B925417095008D1235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1852A0C025417136008D1235 /* ListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViews.swift; sourceTree = "<group>"; };
+		1852A0C125417136008D1235 /* ListViews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViews.xib; sourceTree = "<group>"; };
+		1852A0CE25417F75008D1235 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		1852A0D1254181FA008D1235 /* TicketDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetails.swift; sourceTree = "<group>"; };
+		1852A0D52542858E008D1235 /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		1852A0DD25469E76008D1235 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		1852A0DE25469E76008D1235 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		1852A0E32546AEE2008D1235 /* TicketCommentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCommentCellTableViewCell.swift; sourceTree = "<group>"; };
+		1852A0E42546AEE2008D1235 /* TicketCommentCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketCommentCellTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1852A0A525417094008D1235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1852A09F25417094008D1235 = {
+			isa = PBXGroup;
+			children = (
+				1852A0AA25417094008D1235 /* Nestap Ticket Test */,
+				1852A0A925417094008D1235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1852A0A925417094008D1235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1852A0A825417094008D1235 /* Nestap Ticket Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1852A0AA25417094008D1235 /* Nestap Ticket Test */ = {
+			isa = PBXGroup;
+			children = (
+				1852A0AB25417094008D1235 /* AppDelegate.swift */,
+				1852A0AD25417094008D1235 /* SceneDelegate.swift */,
+				1852A0AF25417094008D1235 /* ViewController.swift */,
+				1852A0D52542858E008D1235 /* Apis.swift */,
+				1852A0CE25417F75008D1235 /* TicketModel.swift */,
+				1852A0D1254181FA008D1235 /* TicketDetails.swift */,
+				1852A0E32546AEE2008D1235 /* TicketCommentCellTableViewCell.swift */,
+				1852A0E42546AEE2008D1235 /* TicketCommentCellTableViewCell.xib */,
+				1852A0DD25469E76008D1235 /* ImageCollectionViewCell.swift */,
+				1852A0DE25469E76008D1235 /* ImageCollectionViewCell.xib */,
+				1852A0B125417094008D1235 /* Main.storyboard */,
+				1852A0C025417136008D1235 /* ListViews.swift */,
+				1852A0C125417136008D1235 /* ListViews.xib */,
+				1852A0B425417095008D1235 /* Assets.xcassets */,
+				1852A0B625417095008D1235 /* LaunchScreen.storyboard */,
+				1852A0B925417095008D1235 /* Info.plist */,
+			);
+			path = "Nestap Ticket Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1852A0A725417094008D1235 /* Nestap Ticket Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1852A0BC25417095008D1235 /* Build configuration list for PBXNativeTarget "Nestap Ticket Test" */;
+			buildPhases = (
+				1852A0A425417094008D1235 /* Sources */,
+				1852A0A525417094008D1235 /* Frameworks */,
+				1852A0A625417094008D1235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nestap Ticket Test";
+			productName = "Nestap Ticket Test";
+			productReference = 1852A0A825417094008D1235 /* Nestap Ticket Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1852A0A025417094008D1235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1852A0A725417094008D1235 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1852A0A325417094008D1235 /* Build configuration list for PBXProject "Nestap Ticket Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1852A09F25417094008D1235;
+			productRefGroup = 1852A0A925417094008D1235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1852A0A725417094008D1235 /* Nestap Ticket Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1852A0A625417094008D1235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852A0B825417095008D1235 /* LaunchScreen.storyboard in Resources */,
+				1852A0E62546AEE2008D1235 /* TicketCommentCellTableViewCell.xib in Resources */,
+				1852A0C325417136008D1235 /* ListViews.xib in Resources */,
+				1852A0B525417095008D1235 /* Assets.xcassets in Resources */,
+				1852A0B325417094008D1235 /* Main.storyboard in Resources */,
+				1852A0E025469E76008D1235 /* ImageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1852A0A425417094008D1235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852A0CF25417F75008D1235 /* TicketModel.swift in Sources */,
+				1852A0B025417094008D1235 /* ViewController.swift in Sources */,
+				1852A0D2254181FA008D1235 /* TicketDetails.swift in Sources */,
+				1852A0D62542858F008D1235 /* Apis.swift in Sources */,
+				1852A0C225417136008D1235 /* ListViews.swift in Sources */,
+				1852A0E52546AEE2008D1235 /* TicketCommentCellTableViewCell.swift in Sources */,
+				1852A0DF25469E76008D1235 /* ImageCollectionViewCell.swift in Sources */,
+				1852A0AC25417094008D1235 /* AppDelegate.swift in Sources */,
+				1852A0AE25417094008D1235 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1852A0B125417094008D1235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1852A0B225417094008D1235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1852A0B625417095008D1235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1852A0B725417095008D1235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1852A0BA25417095008D1235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1852A0BB25417095008D1235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1852A0BD25417095008D1235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nestap Ticket Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snmboy.Nestap-Ticket-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1852A0BE25417095008D1235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nestap Ticket Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snmboy.Nestap-Ticket-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1852A0A325417094008D1235 /* Build configuration list for PBXProject "Nestap Ticket Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852A0BA25417095008D1235 /* Debug */,
+				1852A0BB25417095008D1235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1852A0BC25417095008D1235 /* Build configuration list for PBXNativeTarget "Nestap Ticket Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852A0BD25417095008D1235 /* Debug */,
+				1852A0BE25417095008D1235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1852A0A025417094008D1235 /* Project object */;
+}
