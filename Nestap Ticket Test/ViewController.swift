@@ -47,8 +47,8 @@ class ViewController: UIViewController, UITableViewDataSource{
             //"categoryID "+String(ticket.category_id!)
         
         
-        
-        cell.titleRef.text = "ticket Number - \(ticket.ticket_number)"
+        cell.dateTime.text = ticket.created_at
+        cell.titleRef.text = "\(ticket.ticket_number)"
         return cell
         
     }
