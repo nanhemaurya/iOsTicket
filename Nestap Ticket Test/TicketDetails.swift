@@ -33,7 +33,7 @@ class TicketDetails: UIViewController{
         closeBtn.isUserInteractionEnabled = true
         closeBtn.addGestureRecognizer(tvTitleOnClick)
         
-        navBarTitle.text = "\(String(ticketId!))"
+//        navBarTitle.text = "\(String(ticketId!))"
         
         if let id = ticketId{
             APIs().getTicket(ticketId: id){ (ticket) in
@@ -56,7 +56,7 @@ class TicketDetails: UIViewController{
                     self.commentSection.dataSource = self
                     self.commentSection.delegate = self
                     
-                    self.commentSectionHeight.constant = CGFloat(Double(ticket.comments!.count) * 100)
+                    self.commentSectionHeight.constant = CGFloat(Double(ticket.comments!.count) * 120)
                     
                     let cellNibx = UINib(nibName: "TicketCommentCellTableViewCell", bundle: nil)
                     self.commentSection.register(cellNibx, forCellReuseIdentifier: "commentSection")

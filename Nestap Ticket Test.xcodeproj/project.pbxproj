@@ -22,6 +22,7 @@
 		1852A0E025469E76008D1235 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0DE25469E76008D1235 /* ImageCollectionViewCell.xib */; };
 		1852A0E52546AEE2008D1235 /* TicketCommentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0E32546AEE2008D1235 /* TicketCommentCellTableViewCell.swift */; };
 		1852A0E62546AEE2008D1235 /* TicketCommentCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852A0E42546AEE2008D1235 /* TicketCommentCellTableViewCell.xib */; };
+		1852A0EF2547E0B6008D1235 /* RoundRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852A0EE2547E0B6008D1235 /* RoundRectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1852A0DE25469E76008D1235 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		1852A0E32546AEE2008D1235 /* TicketCommentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCommentCellTableViewCell.swift; sourceTree = "<group>"; };
 		1852A0E42546AEE2008D1235 /* TicketCommentCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketCommentCellTableViewCell.xib; sourceTree = "<group>"; };
+		1852A0EE2547E0B6008D1235 /* RoundRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				1852A0AB25417094008D1235 /* AppDelegate.swift */,
+				1852A0EE2547E0B6008D1235 /* RoundRectView.swift */,
 				1852A0AD25417094008D1235 /* SceneDelegate.swift */,
 				1852A0AF25417094008D1235 /* ViewController.swift */,
 				1852A0D52542858E008D1235 /* Apis.swift */,
@@ -175,6 +178,7 @@
 				1852A0E52546AEE2008D1235 /* TicketCommentCellTableViewCell.swift in Sources */,
 				1852A0DF25469E76008D1235 /* ImageCollectionViewCell.swift in Sources */,
 				1852A0AC25417094008D1235 /* AppDelegate.swift in Sources */,
+				1852A0EF2547E0B6008D1235 /* RoundRectView.swift in Sources */,
 				1852A0AE25417094008D1235 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
